@@ -1,9 +1,9 @@
 function groupAnimals(animals) {
     // you can only write your code here!
   
+  animals.sort();
   var semuaHewan = []
   var abjad = []
-  animals.reverse().sort();
 
   for(i=0;i<animals.length;i++){
     abjad.push(animals[i])

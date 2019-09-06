@@ -2,7 +2,7 @@
 function dataHandling(input){   
     var temp=''
     for(i=0;i<input.length;i++){
-        temp += ('Nomor ID: ' + input[i][0] + '\n' + 'Nama Lengkap: ' + input[i][1] + '\n' + 'TTL: ' + input[i][2] + input[i][3] + '\n' + 'Hobi: ' + input[i][4])
+        temp += ('Nomor ID: ' + input[i][0] + '\n' + 'Nama Lengkap: ' + input[i][1] + '\n' + 'TTL: ' + input[i][2] + ' ' + input[i][3] + '\n' + 'Hobi: ' + input[i][4])
         temp += '\n'
         temp += '\n'
     }
